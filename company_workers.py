@@ -20,3 +20,9 @@ print("Current company workers: ", company_workers)
 company_workers["Developers"]["Ali"]={"age": 28, "role" : "Data Analyst"}
 
 
+def count_workers(company_workers):
+    count = 0
+    for department in company_workers:
+        count += len(company_workers[department])
+    return count
+
