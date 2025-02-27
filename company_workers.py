@@ -15,6 +15,8 @@ company_workers={
 # Printing the current company workers
 print("Current company workers: ", company_workers)
 
+
 # Adding a worker to the company
 company_workers["Developers"]["Ali"]={"age": 28, "role" : "Data Analyst"}
+
 
